@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Long sunrise = sys.getLong("sunrise");
                 Long sunset = sys.getLong("sunset");
-                String windSpeed = wind.getString("speed") + " MPH";
+                String windSpeed = wind.getString("speed") + " MPS";
                 String weatherDescription = weather.getString("description");
 
                 String address = jsonObj.getString("name") + ", " + sys.getString("country");
